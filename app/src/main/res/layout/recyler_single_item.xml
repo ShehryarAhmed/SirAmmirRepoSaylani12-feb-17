@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data class="RecycleSingleItemBind"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/singleRecycleIV"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/singleRecycleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dummy Text"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"/>
+
+        <Button
+            android:id="@+id/singleRecycleBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click me"/>
+    </LinearLayout>
+</layout>
